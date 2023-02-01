@@ -1,6 +1,8 @@
 # 360-privacy-training-web-app
 
-Training web app for COMP 360: Information Security and Privacy at Wesleyan University
+Training web app for COMP 360: Information Security and Privacy at Wesleyan University.
+
+The app is deployed at <http://comp360.lovestoblog.com/>.
 
 When deploying the app, add a config.php file to the root directory with the following content:
 
