@@ -107,7 +107,5 @@ venv.bak/
 .DS_Store
 .idea/
 
-# Generated Files
-policygenerator/interface-debug/
-policygenerator/interface/js/practices.json.js
-policygenerator/interface/js/thirdPartyAnalysis.json.js
+# Config Files
+config.php
