@@ -1,12 +1,18 @@
 <?php
-// Initialize the session
+// Initialize the session.
 session_start();
 
-// Check if the user is logged in, if not then redirect to login page
+// Check if the user is logged in. If not, then redirect them to the login page.
+// $_SESSION is a superglobal variable built into PHP that contains session variables
+// available to the current script. The "loggedin" session variable is true if the user
+// is logged in. The built in isset function is used to determine if a variable is declared 
+// and is different than NULL. It is used here to make sure that the loggedin variable is 
+// set to anything at all.
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
     exit;
 }
+// Echo the username.
 echo "You are logged in as user: " . $_SESSION["display_username"];
 ?>
 
