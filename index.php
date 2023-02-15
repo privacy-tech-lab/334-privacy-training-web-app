@@ -127,9 +127,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
 
             // Set parameters of the mysqli_stmt_bind_param $param_username and
-            // $param_password to the $username and the hash of the $password
-            // the user entered. password_hash is a built-in function to create
-            // a password hash.
+            // $param_password to the $username and $password, respectively.
             $param_username = $username;
             $param_password = $password;
 
