@@ -2,8 +2,8 @@
 
 Training web app for COMP 360: Information Security and Privacy at Wesleyan University.
 
-The app is deployed at <http://comp360.lovestoblog.com/>.
-The HTTPS version of the app is deployed at <http://comp360secure.lovestoblog.com/>.
+- The app is deployed at <http://comp360.lovestoblog.com/>.
+- The HTTPS version of the app is deployed at <http://comp360secure.lovestoblog.com/>. (Note that free certificates are only valid for 90 days.)
 
 When deploying the app, add a config.php file to the root directory with the following content:
 
